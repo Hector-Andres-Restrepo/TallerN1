@@ -1,0 +1,250 @@
+body {
+    background-color: #f0e5d8;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 10px; /*se utiliza para agregar espacio en el interior de un elemento*/
+   
+}
+
+div {
+    margin: 0;
+    background-color: #ffffcc; 
+
+}
+
+header {
+    margin: 0;
+    background-color: #ffffcc; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333; /* Color de texto oscuro */
+    
+}
+
+nav {
+    background-color: #e0ffe0; /* Azul pastel */
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 20px;
+    
+   
+}
+
+#Nav{
+    display: inline; /* se utiliza para controlar cómo se muestra un elemento*/
+    
+}
+
+#Navp{
+    display: inline;
+    
+}
+
+nav ul {
+    list-style-type: none;/*se utiliza para especificar el tipo de marcador o viñeta que se muestra en las listas*/
+    text-align: center;/*se usa para alinear los textos*/
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    
+}
+
+#olh3{
+    display: inline;
+}
+
+#olp{
+    display: inline;
+}
+
+#ulh3{
+    display: inline;
+}
+
+#ulp{
+    display: inline;
+}
+
+.menu li:hover{
+
+    transform: scale(1.2);
+    font-size: larger;
+    color: blue;
+   
+}
+
+nav li {
+    text-align: center;
+    display: inline-block; /* Muestra los elementos de la lista en línea */
+    margin-right: 10px; /* Añade espacio entre los elementos */
+    
+}
+
+nav a {
+    text-decoration: underline;/*se utiliza para controlar la decoración del texto, como subrayado, tachado y otros efectos visuales*/
+    color: #333; /* Color de texto oscuro */
+    font-weight: bold;
+   
+}
+
+aside {
+    background-color: #f5f5dc; /* Amarillo pastel */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde de la etiqueta aside */
+    margin: 20px 0; /* Margen alrededor del aside (ajusta según sea necesario) */
+    border-radius: 20px;
+}
+
+/* Estilos para el texto dentro del aside */
+aside p {
+    display: inline;
+    font-size: 16px;
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Estilos para los títulos dentro del aside */
+aside h2 {
+    display: inline;
+    font-size: 24px;
+    color: #333; /* Color de texto oscuro */
+    margin-bottom: 10px; /* Espacio entre el título y el contenido */
+}
+
+article {
+    background-color: #f0e5d8; /* Color de fondo pastel */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde del artículo */
+    margin: 20px 0; /* Margen alrededor del artículo (ajusta según sea necesario) */
+    border-radius: 20px;
+}
+
+/* Estilos para el texto dentro del artículo */
+article p {
+    font-size: 16px;
+    color: #333; /* Color de texto oscuro */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+/* Estilos para los títulos dentro del artículo */
+article h2 {
+    font-size: 24px;
+    color: #333; /* Color de texto oscuro */
+    margin-bottom: 10px; /* Espacio entre el título y el contenido */
+}
+article h3 {
+    font-size: 24px;
+    color: #333; /* Color de texto oscuro */
+    margin-bottom: 10px; /* Espacio entre el título y el contenido */
+}
+
+
+section {
+    text-align: center;
+    background-color: #ffffcc; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+section h3 {
+    font-size: 24px;
+    color: #333; /* Color de texto oscuro */
+}
+
+table {
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+    width: 100%; /* Ancho de la tabla al 100% del contenedor */
+    margin-bottom: 20px; /* Espacio entre tablas (ajusta según sea necesario) */
+    background-color: #fff; /* Fondo blanco para la tabla */
+    text-align: center;
+    
+}
+
+#Table{
+ text-align: center;
+ font-size: 24px;
+ color: #333; /* Color de texto oscuro */
+
+}
+
+#tabp{
+text-align: center;
+}
+
+
+/* Estilos para las celdas del encabezado */
+th {
+    background-color: #FFDAB9; /* Rosa pastel */
+    color: #333; /* Color de texto oscuro */
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde de celda */
+}
+
+/* Estilos para las celdas de datos */
+td {
+    background-color:  #E6E6FA; /* Verde pastel */
+    color: #333; /* Color de texto oscuro */
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde de celda */
+}
+
+/* Estilo para alternar filas de colores */
+tr:nth-child(even) {
+    background-color: #87ceeb; /* Azul pastel */
+}
+
+footer {
+    background-color: #D3D3D3; /* Amarillo pastel */
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #333; /* Color de texto oscuro */
+}
+
+#logo {
+    position: absolute; /* Fija el contenedor en la ventana del navegador */
+    top: 20px; /* Distancia desde la parte superior */
+    right: 20px; /* Distancia desde la derecha */
+    background-color: transparent;
+    
+}
+
+/* Estilo para la imagen del logotipo */
+#logo img {
+    width: 150px; /* Ajusta el ancho según el tamaño de tu logotipo */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+
+#divgif{
+    text-align: center;
+    background-color: #f0e5d8;
+}
+
+#main1{
+    text-align: center;
+    background-color: #ffffcc;
+    border-radius: 20px;
+
+}
+
+nav a:hover span {
+    color: red; /* Nuevo color al pasar el mouse */
+}
+
+
+
+
+
+
+
+
+
+
